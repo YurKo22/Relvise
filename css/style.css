@@ -37,9 +37,12 @@ body {
   font-weight: 500;
   font-family: Montserrat;
 }
-wrapper {
+.wrapper {
   min-height: 100%;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
 }
 .container {
   max-width: 1046px;
@@ -111,4 +114,36 @@ wrapper {
   .menu__link {
     font-size: 18px;
   }
+}
+/* ================ main ====================== */
+.page{
+   flex: 1 1 auto;
+}
+.page__main-block {
+}
+/* =============== footer =================== */
+.footer{
+
+}
+
+/* =============== main-block ============================ */
+.main-block {
+}
+.main-block__container {
+}
+.container {
+}
+.main-block__body {
+}
+.main-block__title {
+}
+.main-block__text {
+}
+.main-block__buttons {
+}
+.main-block__button {
+}
+.main-block__button_border {
+}
+.main-block__image {
 }
