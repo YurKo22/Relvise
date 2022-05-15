@@ -141,6 +141,8 @@ body {
 }
 .page__whoweare {
 }
+.page__clients {
+}
 /* ------------------ header-block -------------------------- */
 .header-block {
   text-align: center;
@@ -629,4 +631,25 @@ body {
   .whoweare__video:not(:last-child) {
     margin: 30px 0px 0px 0px;
   }
+}
+/* =============== page clients ======================== */
+.clients {
+   padding: 58px 0;
+}
+.clients__container {
+}
+.clients__items {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+}
+.clients__item {
+   padding: 8px 15px;
+   flex: 0 1 16.667%;
+   text-align: center;
+   min-width: 140px;
+}
+.clients__item img {
+   max-width: 100%;
 }
