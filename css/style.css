@@ -148,6 +148,8 @@ body {
 .page__subscribe:not(:last-child) {
   margin: 0px 0px 10px 0px;
 }
+.page__getintouch {
+}
 /* ------------------ header-block -------------------------- */
 .header-block {
   text-align: center;
@@ -270,7 +272,7 @@ body {
     padding: 115px 0px 160px 0px;
   }
 }
-/* =============  page__services ============================ */
+/* =============  page__services ================== */
 .services {
   background: #fafafa;
 }
@@ -726,4 +728,32 @@ body {
    .subscribe__input {
      padding: 0 15px;
    }
+}
+/* ============== page__getintouch ================== */
+.getintouch {
+  padding: 80px 0px 136px 0px;
+}
+.getintouch__container {
+}
+.getintouch__header {
+  margin: 0px 0px 80px 0px;
+}
+.getintouch__items {
+  display: flex;
+  align-items: center;
+}
+.getintouch__item {
+}
+.item-getintouch {
+  display: flex;
+}
+.item-getintouch__icon {
+}
+.item-getintouch__emails {
+}
+.item-getintouch__email {
+}
+.item-getintouch__label {
+}
+.item-getintouch__button {
 }
